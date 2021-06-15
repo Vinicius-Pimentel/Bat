@@ -1,0 +1,11 @@
+@echo off
+
+REG DELETE HKEY_CURRENT_USER\SIC\Frm_PedVenda /f
+REG DELETE HKEY_CURRENT_USER\SIC\Frm_MPedVenda_Item /f
+REG DELETE HKEY_CURRENT_USER\SIC\Frm_MPedVenda_Vda_Realizada /f
+REG DELETE HKEY_CURRENT_USER\SIC\Frm_Orcamento /f
+REG DELETE HKEY_CURRENT_USER\SIC\Frm_Orcamento_VisitaCli /f
+
+
+exit
+
